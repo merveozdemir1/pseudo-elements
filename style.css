@@ -1,0 +1,44 @@
+ul{
+    list-style: none;
+}
+
+.checked:before {
+    content: '✓';
+    color: white;
+    background-color: green;
+    border-color: black;
+    border-spacing: 1rem;
+
+
+  }
+  li:before{
+    content: "⏳" ;
+  }
+
+  .color{
+    background-color: blue;
+  }
+  .task-2::first-line{
+    background-color: blue;
+  }
+  p::selection{
+    background-color: green;
+    color: white;
+  }
+  p::first-letter{
+    background-color: red;
+  }
+ 
+  *::-webkit-scrollbar {
+    width: 30px;
+  
+  }
+  
+  *::-webkit-scrollbar-track{
+    background-color:blue;
+  }
+  
+  *::-webkit-scrollbar-thumb{
+    background-color:red;
+    border-radius: 20px;
+  }
